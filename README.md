@@ -72,7 +72,7 @@ Foram feitos testes usando milissegundo como unidade de tempo. Nesse caso, os re
 
 ### Variação nos resultados
 
-Foram feitos inúmeros testes e a performance de ambos os servidores variaram para mais ou menos de 70.000 operações por segundo. Chegando a passar de 200.000 mil operações por segundo. Fazendo uma analise preliminar, essa variação se deve a sensibilidade do experimento e ao modo como os dados trafegam, mesmo o cliente e o servidor estando em uma mesma maquina. Por exemplo, o laço da linha 67 do método de leitura em ambos clientes variavelmente foi executado mais de uma vez.
+Foram feitos inúmeros testes e a performance de ambos os servidores variaram para mais ou menos de 70.000 operações por segundo. Chegando a passar de 200.000 mil operações por segundo. Fazendo uma analise preliminar, essa variação se deve a sensibilidade do experimento e ao modo como os dados trafegam, mesmo o cliente e o servidor estando em uma mesma maquina. Por exemplo, o laço da linha 67 do método de leitura, em ambos os clientes, variavelmente foi executado mais de uma vez.
 
 ### Conclusão
 
